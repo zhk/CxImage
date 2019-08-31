@@ -97,7 +97,7 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>wininet.lib;../cximage/CxImageDLL/Debug/cximagecrtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>wininet.lib;../Debug/png.lib;../Debug/jpeg.lib;../Debug/zlib.lib;../Debug/tiff.lib;../Debug/jbig.lib;../Debug/jasper.lib;../Debug/mng.lib;../Debug/libdcr.lib;../Debug/libpsd.lib;../Debug/cximage.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>../bin/demoddll.exe</OutputFile>
     </Link>
     <Midl>
